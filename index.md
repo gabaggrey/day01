@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 01 Daily Practice Assignment</title>
 
-You can use the [editor on GitHub](https://github.com/gabaggrey/day01/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+    <style>
+        th, tr, td {
+            padding: 10px;
+            margin: 10px;
+            border: 2px solid black;
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        }
+        table {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Programming Language Museum!!!</h1>
 
-### Markdown
+    <p>Wikipedia links for web technologies</p>
+    <ul>
+        <li><a href="https://en.wikipedia.org/wiki/HTML">HTML</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/JavaScript">Javascript</a></li>
+    </ul>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <p>Find info about <span style="font-weight: bold;">browsers</span> and their <span style="font-weight: bold;">companies</span> below .</p>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gabaggrey/day01/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+    <table>
+        <tr>
+            <th>Browsers</th>
+            <th>Company</th>
+            <th>First Release Year</th>
+        </tr>
+        <tr>
+            <td>Firefox</td>
+            <td>Internet Explorer</td>
+            <td>Chrome</td>
+        </tr>
+        <tr>
+            <td>Mozilla Foundation</td>
+            <td>Microsoft Corporation</td>
+            <td>Google LLC</td>
+        </tr>
+        <tr>
+            <td>2002</td>
+            <td>1995</td>
+            <td>2008</td>
+        </tr>
+    </table>
+</body>
+</html>
